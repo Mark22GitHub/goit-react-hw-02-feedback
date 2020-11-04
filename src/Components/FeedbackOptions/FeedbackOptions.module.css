@@ -1,4 +1,4 @@
-.button {
+button {
   height: 40px;
   width: 100px;
   font-size: 22px;
@@ -9,11 +9,16 @@
   font-weight: 600;
 }
 
-.button:hover {
-  background-color: rgb(0, 255, 183);
+.button_g:hover {
+  background-color: rgb(88, 244, 88);
 }
+.button_n:hover {
+  background-color: rgb(205, 203, 203);
+}
+.button_b:hover {
+  background-color: rgb(249, 53, 53);
+}
+
 .statistics {
   font-size: 33px;
 }
-
-

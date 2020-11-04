@@ -5,9 +5,9 @@ import PropTypes from 'prop-types'
 const FeedbackOptions = ({getQuantityFeedback}) => {
     return (
         <div>
-          <button className={styles.button} name="good" onClick={getQuantityFeedback} >Good</button>
-          <button className={styles.button} name="neutral" onClick={getQuantityFeedback} >Neutral</button>
-          <button className={styles.button} name="bad" onClick={getQuantityFeedback} >Bad</button>
+          <button className={styles.button_g} name="good" onClick={getQuantityFeedback} >Good</button>
+          <button className={styles.button_n} name="neutral" onClick={getQuantityFeedback} >Neutral</button>
+          <button className={styles.button_b} name="bad" onClick={getQuantityFeedback} >Bad</button>
         </div>
     );
 };
